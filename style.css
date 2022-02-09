@@ -80,3 +80,20 @@ form {
     text-decoration: none;
     font-weight: 600;
 }
+@media (max-width: 768px) {
+    body {
+        background-image: none;
+
+    }
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+    .login {
+        margin-top: 20%;
+    }
+    .problemas-para-entrar {
+        margin-top: 30%;
+    }
+
+}
