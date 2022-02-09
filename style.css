@@ -1,0 +1,82 @@
+:root {
+    --azul: #4E5BEE;
+    --vermelho: #FF5757;
+    --cinza: #F8F8F8;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("assets/undraw_interview_rmcf.svg");
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+.container {
+    display: block;
+    height: 100vh;
+    width: 30%;
+    background-color: var(--azul);
+    text-align: center;
+    
+}
+.grab-logo img{
+    max-width: 40%;
+}
+.login {
+    margin-top: 50%;
+}
+.login-card input {
+    border-radius: 20px;
+    width: 50%;
+    height: 30px;
+    border-color: #fff;
+    border: 2px solid #fff;
+    background-color: var(--azul);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    text-align:justify;
+}
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+    box-shadow: none;
+    border-color: #fff;
+}
+form {
+    margin-top: 70px;
+}
+#email-valido {
+    max-height: 5px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 100;
+    visibility: hidden;
+}
+.card-content-senha {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.card-footer input {
+    border-radius: 20px;
+    width: 50%;
+    height: 30px;
+    border: none;
+    color: #504f5f;
+    font-weight: 600;
+    cursor: pointer;
+}
+.problemas-para-entrar {
+    margin-top: 50%;
+    color: #fff;
+}
+.problemas-para-entrar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
